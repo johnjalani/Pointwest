@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Pointwest.Exam</name>
+    </assembly>
+    <members>
+        <member name="T:Pointwest.Exam.Controllers.EmployeeController">
+            <summary>
+            Employee API
+            </summary>
+        </member>
+        <member name="M:Pointwest.Exam.Controllers.EmployeeController.#ctor(Pointwest.Exam.Domain.Repositories.IEmployeeRepository)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="repo"></param>
+        </member>
+        <member name="M:Pointwest.Exam.Controllers.EmployeeController.GetAll">
+            <summary>
+            Get All Employees
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Pointwest.Exam.Controllers.EmployeeController.GetAll(System.Int32,System.Int32)">
+            <summary>
+            get all Employees by page
+            </summary>
+            <param name="pageNumber"></param>
+            <param name="pageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Pointwest.Exam.Controllers.EmployeeController.GetById(System.Guid)">
+            <summary>
+            Get Employee by ID
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Pointwest.Exam.Controllers.EmployeeController.Post(Pointwest.Exam.Domain.ViewModels.CreateEmployeeViewModel)">
+            <summary>
+            Add Employee
+            </summary>
+            <param name="employee"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Pointwest.Exam.Controllers.EmployeeController.Put(Pointwest.Exam.Domain.ViewModels.UpdateEmployeeViewModel)">
+            <summary>
+            Update Employee
+            </summary>
+            <param name="employee"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Pointwest.Exam.Controllers.EmployeeController.Delete(System.Guid)">
+            <summary>
+            Delete Employee
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
