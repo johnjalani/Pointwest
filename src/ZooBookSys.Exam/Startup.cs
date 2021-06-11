@@ -4,6 +4,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using System;
+using System.IO;
 using ZooBookSys.Exam.Extensions;
 using ZooBookSys.Exam.Middleware;
 
@@ -27,6 +29,8 @@ namespace ZooBookSys.Exam
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "MyExamAPI", Version = "v1" });
+                var filePath = Path.Combine(AppContext.BaseDirectory, "ZooBookSys.Exam.xml");
+                c.IncludeXmlComments(filePath);
             });
         }
 
