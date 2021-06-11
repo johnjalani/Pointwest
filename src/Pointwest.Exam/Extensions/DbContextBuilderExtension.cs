@@ -1,16 +1,16 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Pointwest.Exam.Domain;
-using Pointwest.Exam.Domain.Models;
-using Pointwest.Exam.Domain.Repositories;
-using Pointwest.Exam.Shared;
+using ZooBookSys.Exam.Domain;
+using ZooBookSys.Exam.Domain.Models;
+using ZooBookSys.Exam.Domain.Repositories;
+using ZooBookSys.Exam.Shared;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Pointwest.Exam.Extensions
+namespace ZooBookSys.Exam.Extensions
 {
     public static class DbContextBuilderExtension
     {

@@ -1,13 +1,13 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
-using Pointwest.Exam.Domain.Models;
+using ZooBookSys.Exam.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Pointwest.Exam.Domain.Repositories
+namespace ZooBookSys.Exam.Domain.Repositories
 {
     public interface IRepositoryAsync<T> where T : class
     {

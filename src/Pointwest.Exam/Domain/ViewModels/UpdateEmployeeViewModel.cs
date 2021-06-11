@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Pointwest.Exam.Domain.ViewModels
+namespace ZooBookSys.Exam.Domain.ViewModels
 {
     public class UpdateEmployeeViewModel
     {

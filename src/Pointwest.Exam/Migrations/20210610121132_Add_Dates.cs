@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace Pointwest.Exam.Migrations
+namespace ZooBookSys.Exam.Migrations
 {
     public partial class Add_Dates : Migration
     {

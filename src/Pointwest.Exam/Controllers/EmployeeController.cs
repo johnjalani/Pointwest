@@ -1,14 +1,14 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Pointwest.Exam.Domain.Models;
-using Pointwest.Exam.Domain.Repositories;
-using Pointwest.Exam.Domain.ViewModels;
+using ZooBookSys.Exam.Domain.Models;
+using ZooBookSys.Exam.Domain.Repositories;
+using ZooBookSys.Exam.Domain.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Pointwest.Exam.Controllers
+namespace ZooBookSys.Exam.Controllers
 {
     /// <summary>
     /// Employee API

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Pointwest.Exam.Shared
+namespace ZooBookSys.Exam.Shared
 {
     public class Result<T>
     {

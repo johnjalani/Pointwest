@@ -4,7 +4,7 @@ using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Pointwest.Exam.Exceptions
+namespace ZooBookSys.Exam.Exceptions
 {
     public class ApiException : Exception
     {

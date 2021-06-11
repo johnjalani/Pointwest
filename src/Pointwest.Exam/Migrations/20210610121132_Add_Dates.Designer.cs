@@ -5,9 +5,9 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Pointwest.Exam.Domain.Models;
+using ZooBookSys.Exam.Domain.Models;
 
-namespace Pointwest.Exam.Migrations
+namespace ZooBookSys.Exam.Migrations
 {
     [DbContext(typeof(ApplicationContext))]
     [Migration("20210610121132_Add_Dates")]
@@ -21,7 +21,7 @@ namespace Pointwest.Exam.Migrations
                 .HasAnnotation("ProductVersion", "5.0.7")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("Pointwest.Exam.Domain.Models.Employee", b =>
+            modelBuilder.Entity("ZooBookSys.Exam.Domain.Models.Employee", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()

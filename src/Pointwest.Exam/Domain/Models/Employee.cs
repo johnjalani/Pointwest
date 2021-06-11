@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Pointwest.Exam.Domain.Models
+namespace ZooBookSys.Exam.Domain.Models
 {
     public class Employee
     {

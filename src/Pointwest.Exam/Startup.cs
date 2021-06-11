@@ -4,10 +4,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
-using Pointwest.Exam.Extensions;
-using Pointwest.Exam.Middleware;
+using ZooBookSys.Exam.Extensions;
+using ZooBookSys.Exam.Middleware;
 
-namespace Pointwest.Exam
+namespace ZooBookSys.Exam
 {
     public class Startup
     {

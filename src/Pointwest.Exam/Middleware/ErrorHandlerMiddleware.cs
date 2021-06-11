@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
-using Pointwest.Exam.Exceptions;
-using Pointwest.Exam.Shared;
+using ZooBookSys.Exam.Exceptions;
+using ZooBookSys.Exam.Shared;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +8,7 @@ using System.Net;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace Pointwest.Exam.Middleware
+namespace ZooBookSys.Exam.Middleware
 {
     public class ErrorHandlerMiddleware
     {

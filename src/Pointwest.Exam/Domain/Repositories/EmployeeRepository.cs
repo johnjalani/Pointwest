@@ -1,12 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Caching.Distributed;
-using Pointwest.Exam.Domain.Models;
+using ZooBookSys.Exam.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Pointwest.Exam.Domain.Repositories
+namespace ZooBookSys.Exam.Domain.Repositories
 {
     public interface IEmployeeRepository
     {

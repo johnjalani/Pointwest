@@ -1,13 +1,13 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.Extensions.Logging;
-using Pointwest.Exam.Shared;
+using ZooBookSys.Exam.Shared;
 using System.Data;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Pointwest.Exam.Domain.Models
+namespace ZooBookSys.Exam.Domain.Models
 {
     public class ApplicationContext : DbContext
     {

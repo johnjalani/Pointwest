@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "Pointwest.Exam": {
+    "ZooBookSys.Exam": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": true,

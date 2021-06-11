@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Pointwest.Exam.Extensions
+namespace ZooBookSys.Exam.Extensions
 {
 	public static class SerilogBuilderExtension
 	{

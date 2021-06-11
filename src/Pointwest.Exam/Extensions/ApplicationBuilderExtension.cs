@@ -1,11 +1,11 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using Pointwest.Exam.Domain.Repositories;
+using ZooBookSys.Exam.Domain.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Pointwest.Exam.Extensions
+namespace ZooBookSys.Exam.Extensions
 {
     public static class ApplicationBuilderExtension
     {
